@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'application'
 }
 
 group 'com.revature'
@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:10.1.0-M10'
+    implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets:7.0.23'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
