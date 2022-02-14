@@ -14,9 +14,7 @@ public class DexRepository {
 
     public DexRepository(String fileName){
         this.pocketMonsters = new ArrayList<>();
-        // this.file = new File("src/main/resources/" + fileName);
         this.file = getClass().getClassLoader().getResourceAsStream(fileName);
-        // this.file = getClass().getClassLoader().getResourceAsStream(fileName);
         load();
     }
 
