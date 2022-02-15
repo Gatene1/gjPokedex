@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class DexRepository {
     private List<String> pocketMonsters;
     private InputStream file;
+
     public List<String> pocketMonsters() {
         return pocketMonsters;
     }

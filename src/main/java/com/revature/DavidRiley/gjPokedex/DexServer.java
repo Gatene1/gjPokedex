@@ -1,6 +1,7 @@
 package com.revature.DavidRiley.gjPokedex;
 
 import org.apache.catalina.LifecycleException;
+import org.apache.catalina.Server;
 import org.apache.catalina.startup.Tomcat;
 
 public class DexServer {
@@ -19,4 +20,5 @@ public class DexServer {
                         e.printStackTrace();
                 }
         }
+
 }
